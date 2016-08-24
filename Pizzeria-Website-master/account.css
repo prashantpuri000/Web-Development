@@ -1,0 +1,122 @@
+
+body
+{
+    width:100%;
+    margin:0px;
+    padding:0px;
+    float:left;
+    font-family:arial;
+    background-image:url('background1.png');
+    background-attachment:fixed;
+    background-repeat: repeat-x;
+}
+
+header
+{
+    width:1040p;
+    margin:20px;
+    color: 	 	#000000 ;
+    background-color:#FF9900;
+    text-align: center;
+    font-family:"Comic Sans MS";
+    font-size:50px;
+}
+
+table {
+width: 90%; 
+border-collapse: collapse;
+margin: auto; 
+}
+
+td {
+	height: auto;
+	text-align: center;
+}
+
+a:link, a:visited {
+background-color:#FF9900; 
+color:#5e0000; 
+font-size: 30px;
+font-style: normal;
+}
+
+a:hover, a:active { 
+color: #2b21de;
+font-size: 30px;
+}
+
+#search
+{
+    width:1040p;
+    height: 40px;
+    margin: 20px;
+    color: 	 	#000000 ;
+    background-color:#FF9900;
+    text-align: center;
+    font-style: normal;
+    font-size:27px;
+}
+
+
+#get{
+
+    font-size:1.0em;
+    margin:0.9em;
+    padding:.10em;
+    border:1px solid CDBA65;
+}
+#form{
+    float:left;
+    width:300px;
+    height:435px;
+    text-align: center;
+    color:black;
+    padding:5px;
+    background-color:#FF9900;
+    margin:15px 60px;
+    font-family:"Comic Sans MS";
+}
+#totalPrice
+{
+    padding:10px;
+    font-weight:bold;
+    color:red;
+    background-color:black;
+}
+#form2{
+    float:left;
+    width:300px;
+    height:515px;
+    text-align: center;
+    color:black;
+    margin:15px 60px;
+    display: block;
+    position: relative;
+    clear: none;
+
+
+    background-color:#FF9900;
+    font-family:"Comic Sans MS";
+}
+#form3{
+    width:300px;
+    height:315px;
+    text-align: center;
+    color:black;
+    clear: none;
+    margin:15px 60px;
+    display: block;
+	position: relative;
+    background-color:#FF9900;
+    font-family:"Comic Sans MS";
+}
+form#account{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 851px;
+    position: relative;
+    clear: both;
+}

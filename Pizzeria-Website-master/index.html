@@ -1,0 +1,112 @@
+<html> 
+    <head> 
+        <title>Order Pizza Online....</title> 
+        <link rel="stylesheet" type="text/css" href="account.css">
+        <link rel="stylesheet" type="text/css" href="include/login.js">
+        
+        <script type="text/JavaScript" src="account.js"></script>
+    </head>
+
+    <header> CONESTOGA PIZZERIA 
+    	   	<a href="employee.php">employee</a> <a href="manage.php">manager</a>
+    </header>  
+    
+    <body onload='hideTotal()'> 
+
+
+        <form id="account" name="account" onsubmit="return validateForm()" action="assignment.php" method="POST">
+
+            <div id="form2">
+                <h4>- ONLINE ORDER -</h4><hr>
+                <h4><i>Enter order details below :-</i></h4>
+
+                <label>Enter size of pizza : -</label>
+                <br>
+                <label class='radiolabel'><input type="radio"  name="selectedpizza" value="small" onclick="calculateTotal()" />Small($5)</label><br>
+                <label class='radiolabel'><input type="radio"  name="selectedpizza" value="medium" onclick="calculateTotal()" />Medium ($10)</label><br>
+                <label class='radiolabel'><input type="radio"  name="selectedpizza" value="large" onclick="calculateTotal()" />Large ($15)</label><br>
+                <label class='radiolabel'><input type="radio"  name="selectedpizza" value="xlarge" onclick="calculateTotal()" />Xlarge($20)</label>
+                <br/>
+                <br>
+                <label>Select crust type:- </label>
+                <br> 
+                <label class='radiolabel'><input type="radio"  name="crust" value="thin" onclick="calculateTotal()" />Thin crust</label>
+                <label class='radiolabel'><input type="radio"  name="crust" value="pan" onclick="calculateTotal()" />Pan made</label>
+                <label class='radiolabel'><input type="radio"  name="crust" value="hand" onclick="calculateTotal()" />hand tossed</label>
+                <label class='radiolabel'><input type="radio"  name="crust" value="stuff" onclick="calculateTotal()" />Stuff crust($2)</label>
+                <br>
+                <br>
+                <label >Enter toppings <br><i>(*Extra topping - $0.50 each)</i></label>
+
+                <p>
+                    <select id="topping" name='topping' onchange="calculateTotal()">
+                        <option value="None">Select topping</option>
+                        <option value="pepperoni">Pepperoni (free)</option>
+                        <option value="bacon">bacon</option>
+                        <option value="ham">ham</option>
+                        <option value="sausage">sausage</option>
+                        <option value="beef">beef</option>
+                        <option value="mushroom">mushroom</option>
+                        <option value="greenpepper">greenpepper</option>
+                        <option value="olives">olives</option>
+                        <option value="onions">onions</option>
+                        <option value="tomatoes">tomatoes</option>
+                    </select><br>
+
+
+                    <select id="topping2" name='topping2' onchange="calculateTotal()">
+                        <option value="None">Select topping</option>
+                        <option value="pepperoni">Pepperoni (free)</option>
+                        <option value="bacon">bacon</option>
+                        <option value="ham">ham</option>
+                        <option value="sausage">sausage</option>
+                        <option value="beef">beef</option>
+                        <option value="mushroom">mushroom</option>
+                        <option value="greenpepper">greenpepper</option>
+                        <option value="olives">olives</option>
+                        <option value="onions">onions</option>
+                        <option value="tomatoes">tomatoes</option>
+                    </select><br>
+
+                    <select id="topping3" name='topping3' onchange="calculateTotal()">
+                        <option value="None">Select topping</option>
+                        <option value="pepperoni">Pepperoni (free)</option>
+                        <option value="bacon">bacon</option>
+                        <option value="ham">ham</option>
+                        <option value="sausage">sausage</option>
+                        <option value="beef">beef</option>
+                        <option value="mushroom">mushroom</option>
+                        <option value="greenpepper">greenpepper</option>
+                        <option value="olives">olives</option>
+                        <option value="onions">onions</option>
+                        <option value="tomatoes">tomatoes</option>
+                    </select><br>
+
+
+                </p>
+
+            </div>
+
+
+
+            <div id="form">
+
+                <h4><i>Enter Your Information Below:-</i></h4>
+                Name:<input type="text" id="get" name="name" placeholder=""><br>
+                City:<input type="text" id="get" name="city" placeholder=""><br>
+                Province:<input type="text" id="get" name="province" placeholder=""><br>
+                Postal:<input type="text" id="get" name="postal" placeholder=""><br>
+                Tel.No.:<input type="text" id="get" name="cell" placeholder="123-456-7890"><br>
+                Email:<input type="text" id="get" name="email" placeholder="abc@xyz.com"><br>
+
+                <br>  
+
+
+                <input type='submit' id='submit' value='Submit' onclick="calculateTotal()" />
+                <br><br>
+                <div id="totalPrice"></div>
+                 <input id="total" type="hidden" name="total">
+            </div>
+        </form> 
+    </body> 
+</html>

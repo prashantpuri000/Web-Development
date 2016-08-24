@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="C:\xampp\htdocs\Solution3\pissa.clpprj">
+	<settings><PM_URL><![CDATA[C:/Users/zhepai/AppData/Roaming/ClPhpEd/Projects/]]></PM_URL><PM_HOME_URL><![CDATA[C:/Users/zhepai/AppData/Roaming/ClPhpEd/Projects/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
+		<file name="C:\xampp\htdocs\Solution3\assignment.php"/>
+		<file name="C:\xampp\htdocs\Solution3\account.css"/>
+		<file name="C:\xampp\htdocs\Solution3\index.html"/>
+		<file name="C:\xampp\htdocs\Solution3\account.js"/>
+		<file name="C:\xampp\htdocs\Solution3\include\config.php"/>
+		<file name="C:\xampp\htdocs\Solution3\login.php"/>
+		<file name="C:\xampp\htdocs\Solution3\manage.php"/>
+		<file name="C:\xampp\htdocs\Solution3\loginCheck.php"/>
+	</lastopfiles>
+	<errors version="5.3">
+		<errfile name="C:\xampp\htdocs\Solution3\index.html">
+			<error val="10;8;15;8;2001;1;"/>
+		</errfile>
+		<errfile name="C:\xampp\htdocs\Solution3\account.css">
+			<error val="0;24;0;25;2501;1;"/>
+		</errfile>
+	</errors>
+	<codestructure version="5.0">
+		<phptree>
+			<treenode node="DBHOST;PHP:PHP Word;C:\xampp\htdocs\Solution3\include\Codelobster0.php;f8;2;14;2;;;;vpos;;v;;r'localhost';;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="DBNAME;PHP:PHP Word;C:\xampp\htdocs\Solution3\include\Codelobster0.php;f8;5;14;5;;;;vpos;;v;;r'pizza_order';;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="DBPASS;PHP:PHP Word;C:\xampp\htdocs\Solution3\include\Codelobster0.php;f8;4;14;4;;;;vpos;;v;;r'';;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="DBUSER;PHP:PHP Word;C:\xampp\htdocs\Solution3\include\Codelobster0.php;f8;3;14;3;;;;vpos;;v;;r'root';;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="include/config.php;PHP:PHP Include;C:\xampp\htdocs\Solution3\assignment.php;f10;6;28;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="validateFeedbackForm;PHP:Function Name;C:\xampp\htdocs\Solution3\file.php;f2;2;3;14;;;;vpos;;v;;r;;d38,2;;b0,0;;marr;;p">
+				<treenode node="arr;PHP:Var Name;C:\xampp\htdocs\Solution3\file.php;f32;2;36;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="_POST;PHP:Var Name;C:\xampp\htdocs\Solution3\file.php;f11;16;17;16;;C:\xampp\htdocs\Solution3\assignment.php;f4;8;10;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="city;PHP:Var Name;C:\xampp\htdocs\Solution3\assignment.php;f1;10;6;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="conn;PHP:Var Name;C:\xampp\htdocs\Solution3\include\Codelobster0.php;f0;8;5;8;;;;vposresource;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="date;PHP:Var Name;C:\xampp\htdocs\Solution3\assignment.php;f1;16;6;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="email;PHP:Var Name;C:\xampp\htdocs\Solution3\assignment.php;f1;14;7;14;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="errorMsg;PHP:Var Name;C:\xampp\htdocs\Solution3\file.php;f4;17;13;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="name;PHP:Var Name;C:\xampp\htdocs\Solution3\assignment.php;f1;9;6;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="postal;PHP:Var Name;C:\xampp\htdocs\Solution3\assignment.php;f1;12;8;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="province;PHP:Var Name;C:\xampp\htdocs\Solution3\assignment.php;f1;11;10;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="query_string;PHP:Var Name;C:\xampp\htdocs\Solution3\assignment.php;f1;18;14;18;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="result;PHP:Var Name;C:\xampp\htdocs\Solution3\assignment.php;f1;15;8;15;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="telnum;PHP:Var Name;C:\xampp\htdocs\Solution3\assignment.php;f1;13;8;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+		</phptree>
+		<jstree>
+			<treenode node="buildData;JS:Function Name;C:\xampp\htdocs\Solution3\account.js;f0;247;1;253;;;;vpos;;v;;r;;d21,247;;b0,0;;m">
+				<treenode node="txtData;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f8;248;15;248;;;;vposString;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="calculateTotal;JS:Function Name;C:\xampp\htdocs\Solution3\account.js;f0;202;1;239;;;;vpos;;v;;r;;d0,203;;b0,0;;m">
+				<treenode node="divobj;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f8;233;14;233;;;;vposDOMElement;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="innerHTML;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f11;237;20;237;;;;vposString;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="style;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f11;236;16;236;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+						<treenode node="display;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f17;236;24;236;;;;vposString;;v;;r;;d-1,-1;;b0,0;;m">
+						</treenode>
+					</treenode>
+				</treenode>
+				<treenode node="document;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f36;220;44;220;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="pizzaPrice;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f8;218;18;218;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="topping_prices2;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f8;204;23;204;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="prototype;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f8;204;23;204;;;;vposArray;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="topprice;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f8;220;16;220;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="crustPrice;JS:Function Name;C:\xampp\htdocs\Solution3\account.js;f0;149;1;172;;;;vpos;;v;;r;;d0,150;;b0,0;;m">
+				<treenode node="crust;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f8;155;13;155;;;;vposDOMElement;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="crust_prices;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f25;164;37;164;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="crustPrice;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f8;151;18;151;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="document;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f18;153;26;153;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="i;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f13;158;14;158;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="theForm;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f8;153;15;153;;;;vposDOMForm;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="getSizePrice;JS:Function Name;C:\xampp\htdocs\Solution3\account.js;f0;126;1;147;;;;vpos;;v;;r;;d0,127;;b0,0;;m">
+				<treenode node="document;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f18;130;26;130;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="i;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f13;134;14;134;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="selectedpizza;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f8;132;21;132;;;;vposDOMElement;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="size_prices;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f24;140;35;140;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="SizePrice;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f8;128;17;128;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="theForm;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f8;130;15;130;;;;vposDOMForm;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="getToppingPrice2;JS:Function Name;C:\xampp\htdocs\Solution3\account.js;f0;175;1;186;;;;vpos;;v;;r;;d0,176;;b0,0;;m">
+				<treenode node="document;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f18;179;26;179;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="selectedtopping2;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f8;181;24;181;;;;vposDOMElement;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="theForm;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f8;179;15;179;;;;vposDOMForm;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="topping_prices2;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f20;183;35;183;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="ToppingPrice2;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f8;177;21;177;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="getToppingPrice3;JS:Function Name;C:\xampp\htdocs\Solution3\account.js;f0;188;1;199;;;;vpos;;v;;r;;d0,189;;b0,0;;m">
+				<treenode node="document;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f18;192;26;192;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="selectedtopping3;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f8;194;24;194;;;;vposDOMElement;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="theForm;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f8;192;15;192;;;;vposDOMForm;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="topping_prices3;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f20;196;35;196;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="ToppingPrice3;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f8;190;21;190;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="hideTotal;JS:Function Name;C:\xampp\htdocs\Solution3\account.js;f0;241;1;245;;;;vpos;;v;;r;;d0,242;;b0,0;;m">
+				<treenode node="divobj;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f8;243;14;243;;;;vposDOMElement;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="document;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f17;243;25;243;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="validateForm;JS:Function Name;C:\xampp\htdocs\Solution3\account.js;f0;1;1;68;;;;vpos;;v;;r;;d0,2;;b0,0;;m">
+				<treenode node="document;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f12;3;20;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="s;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f8;9;9;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="t;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f8;16;9;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="u;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f8;23;9;23;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="v;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f8;30;9;30;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="x;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f8;3;9;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="validateLoginForm;JS:Function Name;C:\xampp\htdocs\Solution3\account.js;f0;70;1;83;;;;vpos;;v;;r;;d28,70;;b0,0;;m">
+				<treenode node="document;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f12;71;20;71;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="name;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f5;71;9;71;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="pw;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f8;77;10;77;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="crust_prices;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f4;117;16;117;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="prototype;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f4;117;16;117;;;;vposArray;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="size_prices;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f4;85;15;85;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="prototype;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f4;85;15;85;;;;vposArray;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="topping_prices2;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f4;92;19;92;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="prototype;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f4;92;19;92;;;;vposArray;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="topping_prices3;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f4;104;19;104;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="prototype;JS:JS Var Name;C:\xampp\htdocs\Solution3\account.js;f4;104;19;104;;;;vposArray;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+		</jstree>
+		<scsstree>
+		</scsstree>
+		<lesstree>
+		</lesstree>
+	</codestructure><cakedata>
+	</cakedata>
+	<dplmenupath>
+	</dplmenupath><laravael>
+	</laravael><smartyassings>
+	</smartyassings><twigtemplate>
+	</twigtemplate><yiidata>
+	</yiidata>
+	<todoblock>
+	</todoblock>
+	<filescache>
+		<file name="C:\xampp\htdocs\Solution3\include\config.php" crc="-221598666"/>
+		<file name="C:\xampp\htdocs\Solution3\manage.php" crc="1387466209"/>
+		<file name="C:\xampp\htdocs\Solution3\loginCheck.php" crc="1604745361"/>
+		<file name="C:\xampp\htdocs\Solution3\login.php" crc="1508359663"/>
+		<file name="C:\xampp\htdocs\Solution3\jxnb--newfile.txt" crc="2082044512"/>
+		<file name="C:\xampp\htdocs\Solution3\file.php" crc="-165461702"/>
+		<file name="C:\xampp\htdocs\Solution3\assignment.php" crc="-1275530111"/>
+		<file name="C:\xampp\htdocs\Solution3\account.js" crc="1231336970"/>
+		<file name="C:\xampp\htdocs\Solution3\account.css" crc="1941833085"/>
+	</filescache>
+</project>

@@ -1,0 +1,11 @@
+name :jxnb
+city :jnsj
+province :ndkn
+postal :N2C2H7
+cell :323-344-3245
+Email :asc@gmail.com
+Order detail --------
+selected pizza :medium
+crust :pan
+topping :mushroom greenpepper bacon
+total :11

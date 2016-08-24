@@ -1,0 +1,86 @@
+﻿body{ background-image:url(../image/bodyback.png); padding:0px; }
+#wrapper { width:900px; margin:auto ; background-image: url(../image/eback.jpg); background-repeat:no-repeat;}
+#header { width:900px; height:100px; margin:auto; }
+#search  { float:right}
+#menu { width:780px;
+margin-top:10px; margin-left:6.2em;
+}
+#menuitem {
+    width:590px; 
+    background-color:#464441;
+    margin-left: 170px;
+    margin-bottom: 4px;
+    vertical-align:middle;
+}
+#menuitem li { display:inline; padding-left:5px; }
+#menuitem a { text-decoration:none; color:#FFF; font-family:Tahoma,Geneva,sans-serif; font-size:15px;  }
+#menuitem a { text-decoration:none; color:#FFF; font-family:Tahoma,Geneva,sans-serif; font-size:15px;  }
+#menuitem a:hover { color:#8dc63f;}
+.selected { color:#8dc63f;}
+#maincontent { width:900px; margin-top:60px;background-color:White;
+    height:100%;
+    margin-left: 4px;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+#content1 {width:900px; margin:auto;}
+#content2 {width:900px; margin:auto; margin-top:2px;}
+
+#right { width:348px; 
+float:right; height:149px;
+    margin-left: 59px;
+}
+#right1 { width:350px; float:right; background-color:#3595a1; height:157px;
+}
+#right2 { width:350px; float:right; background-color:#464441; height:230px; margin-top:10px;}
+#right3 { width:350px; float:right; background-color:#464441; height:230px;
+    margin-left: 0px;
+}
+#right4 { width:350px; float:right; background-color:#3595a1; height:150px; margin-top:10px;}
+#left { width:477px; 
+height:400px;
+    margin-right: 0px;
+}
+.seprater
+{
+    background-image:("/image/title_link.png");
+}
+#left_2 { width:462px; 
+height:400px; background-color:#fcfaf2;
+    margin-top: 0px;
+}
+#left1 { width:482px; 
+background-color:#fcfaf2; height:190px; }
+#left2 { width:484px; 
+background-color:#fcfaf2; height:212px;  }
+#footer { width:900px; height:100px; color:White; margin:auto; margin-top:10px; background-color:#464441;}
+#login td{ font-family:Tahoma,Geneva,sans-serif; font-size:15px;color:White;padding:5px 0 5px 5px;vertical-align:middle;}
+#login{ vertical-align:middle;padding:10px 5px 10px 35px;
+    width: 95%;
+}
+.org{ vertical-align:middle;padding:10px 5px 10px 35px;color:Black;
+    height: 113px;
+    width: 98%;
+}
+.org td{ font-family:Tahoma,Geneva,sans-serif; font-size:15px;color:white;padding:5px 0 5px 5px;vertical-align:middle;}
+#right2 a:hover{color:#b5bf3c;}
+.org td a{ color:white;}
+
+
+
+.table-form
+{
+    width:65%;
+    margin-left:15em;
+    margin-top:3em;
+    border:1px solid #2d2d2d;
+}
+
+table-form td
+{
+    font-family:Tahoma;
+    font-weight:normal;
+   
+}
+
+#left_2_prg{width:900px; height:550px; background-color:#fcfaf2; }
